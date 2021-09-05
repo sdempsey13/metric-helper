@@ -1,0 +1,24 @@
+{
+  "name": "Metric Cheat Sheet",
+  "description": "Easily accesible dropdown metric prefixes cheat sheet",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "MacCtrl+Shift+M"
+      },
+    "description": "Opens popup.html"
+    }
+  }
+}
